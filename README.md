@@ -18,4 +18,18 @@
 
 [Land Fast Travel](https://www.nexusmods.com/windrose/mods/130)
 
+[Better Minimap Range](https://www.nexusmods.com/windrose/mods/87)
 
+[NO NPS Collision](https://www.nexusmods.com/windrose/mods/295)
+
+[Sell BlackBeard Reputation Insignia Signs for Piasta](https://www.nexusmods.com/windrose/mods/276)
+
+[Expands Foos And Elixir Slots](https://www.nexusmods.com/windrose/mods/123)
+
+[Loot Pickup Range](https://www.nexusmods.com/windrose/mods/217)
+
+[Fast Travel Plus](https://www.nexusmods.com/windrose/mods/54)
+
+[Extendet Bonfire Radius](https://www.nexusmods.com/windrose/mods/62)
+
+[Faster Ships](https://www.nexusmods.com/windrose/mods/285)
