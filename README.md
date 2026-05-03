@@ -33,3 +33,7 @@
 [Extendet Bonfire Radius](https://www.nexusmods.com/windrose/mods/62)
 
 [Faster Ships](https://www.nexusmods.com/windrose/mods/285)
+
+[More Mineral Resources](https://www.nexusmods.com/windrose/mods/53)
+
+[More Tree Resources](https://www.nexusmods.com/windrose/mods/59)
