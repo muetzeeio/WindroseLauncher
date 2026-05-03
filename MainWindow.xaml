@@ -49,7 +49,7 @@
 
             <!-- Dynamic overlays: cover baked mockup text and draw real values -->
             <!-- Path text overlay -->
-            <Border Canvas.Left="58" Canvas.Top="291" Width="1096" Height="48" Background="#050505" CornerRadius="3"/>
+            <Border Canvas.Left="58" Canvas.Top="291" Width="1096" Height="52" Background="#050505" CornerRadius="3" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <TextBlock x:Name="PathText"
                    Canvas.Left="78"
                    Canvas.Top="303"
@@ -65,10 +65,10 @@
                 Canvas.Top="438"
                 Width="148"
                 Height="150"
-                Background="#232323"
+                Background="#181819"
                 Opacity="1"
                 CornerRadius="7"/>
-            <Border Canvas.Left="205" Canvas.Top="470" Width="235" Height="95" Background="#242424" Opacity="0.96" CornerRadius="4"/>
+            <Border Canvas.Left="205" Canvas.Top="470" Width="235" Height="95" Background="#181819" Opacity="0.99" CornerRadius="4"/>
             <TextBlock x:Name="StatusIconOverlay"
                    Canvas.Left="74"
                    Canvas.Top="446"
@@ -92,13 +92,13 @@
                    Width="250"
                    Height="30"
                    Text="Bitte Installationspfad wählen"
-                   FontSize="21"
+                   FontSize="18"
                    Foreground="#CFCFCF"
                    TextTrimming="CharacterEllipsis"/>
 
 
             <!-- Game status overlay -->
-            <Border Canvas.Left="150" Canvas.Top="708" Width="235" Height="62" Background="#252525" Opacity="0.96" CornerRadius="4"/>
+            <Border Canvas.Left="150" Canvas.Top="708" Width="235" Height="62" Background="#181819" Opacity="0.99" CornerRadius="4"/>
             <TextBlock Canvas.Left="154"
                    Canvas.Top="709"
                    Width="210"
@@ -118,12 +118,12 @@
                    TextTrimming="CharacterEllipsis"/>
 
             <!-- Log overlay -->
-            <Border Canvas.Left="536" Canvas.Top="777" Width="938" Height="106" Background="#050505" CornerRadius="3"/>
+            <Border Canvas.Left="533" Canvas.Top="780" Width="945" Height="115" Background="#050505" CornerRadius="3" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <RichTextBox x:Name="RealLogBox"
-                 Canvas.Left="536"
-                 Canvas.Top="777"
-                 Width="938"
-                 Height="106"
+                 Canvas.Left="533"
+                 Canvas.Top="780"
+                 Width="945"
+                 Height="116"
                  Background="#050505"
                  Foreground="#61A6FF"
                  BorderBrush="#050505"
@@ -132,7 +132,7 @@
                  FontSize="15"
                  Padding="10"
                  IsReadOnly="True"
-                 VerticalScrollBarVisibility="Auto"/>
+                 VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
 
             <!-- Drag area -->
@@ -149,13 +149,13 @@
             <Button Canvas.Left="1456" Canvas.Top="0" Width="78" Height="56" Style="{StaticResource HitButton}" Click="Exit_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
             <!-- Functional hit zones matching the mockup -->
-            <Button Canvas.Left="1165" Canvas.Top="287" Width="280" Height="58" Style="{StaticResource HitButton}" Click="ChooseFolder_Click"/>
+            <Button Canvas.Left="1165" Canvas.Top="288" Width="280" Height="57" Style="{StaticResource HitButton}" Click="ChooseFolder_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            <Button Canvas.Left="550" Canvas.Top="443" Width="445" Height="108" Style="{StaticResource HitButton}" Click="PlayVanilla_Click"/>
-            <Button Canvas.Left="1015" Canvas.Top="443" Width="445" Height="108" Style="{StaticResource HitButton}" Click="PlayMods_Click"/>
+            <Button Canvas.Left="547" Canvas.Top="446" Width="443" Height="107" Style="{StaticResource HitButton}" Click="PlayVanilla_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <Button Canvas.Left="1016" Canvas.Top="445" Width="447" Height="108" Style="{StaticResource HitButton}" Click="PlayMods_Click"/>
 
-            <Button Canvas.Left="550" Canvas.Top="574" Width="445" Height="100" Style="{StaticResource HitButton}" Click="InstallMods_Click"/>
-            <Button Canvas.Left="1015" Canvas.Top="574" Width="445" Height="100" Style="{StaticResource HitButton}" Click="RemoveMods_Click"/>
+            <Button Canvas.Left="547" Canvas.Top="581" Width="443" Height="102" Style="{StaticResource HitButton}" Click="InstallMods_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Canvas.Left="1017" Canvas.Top="580" Width="446" Height="103" Style="{StaticResource HitButton}" Click="RemoveMods_Click" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
             <Button Canvas.Left="40" Canvas.Top="936" Width="187" Height="64" Style="{StaticResource HitButton}" Click="Settings_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
             <Button Canvas.Left="236" Canvas.Top="936" Width="135" Height="64" Style="{StaticResource HitButton}" Click="About_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
