@@ -12,10 +12,6 @@
 
 [MoreStacks](https://www.nexusmods.com/windrose/mods/28)
 
-[Windrose Bounty](https://www.nexusmods.com/windrose/mods/186)
-
-[Enhanced Merchant](https://www.nexusmods.com/windrose/mods/119)
-
 [Land Fast Travel](https://www.nexusmods.com/windrose/mods/130)
 
 [Better Minimap Range](https://www.nexusmods.com/windrose/mods/87)
